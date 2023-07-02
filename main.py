@@ -115,6 +115,7 @@ def check_win(board_mat: list, turn: str) -> bool:
 
 def main():
     """これはメイン関数です．"""
+    print("途中で終了したいときは'Ctrl + C'を押下してください．")
     print("Game Start!!")
     print()
     board_mat = make_empty_mat()
